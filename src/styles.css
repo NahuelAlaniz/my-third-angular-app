@@ -7,17 +7,24 @@
   body {
     font-family: 'Be Vietnam Pro', sans-serif;
   }
+  
   :root {
-    --primary-color: #605DC8;
-    --secondary-color: #8B89E6;
-    --accent-color: #e8e7fa;
-    --shadow-color: #E8E8E8;
+    --primary-color: #1d1814;
+    --secondary-color: #743222;
+    --accent-color: #763c28;
+    --shadow-color: #6c3b2a;
+    --logo-width:70px;
   }
   
+  .brand-logo {
+    width: var(--logo-width);
+    height: auto;
+  }
+
   button.primary {
     padding: 10px;
-    border: solid 1px var(--primary-color);
-    background: var(--primary-color);
+    border: solid 1px var(--secondary-color);
+    background: var(--secondary-color);
     color: white;
     border-radius: 8px;
   }
