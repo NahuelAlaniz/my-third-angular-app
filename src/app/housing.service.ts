@@ -38,7 +38,7 @@ export class HousingService {
       photo: `assets/images/americano.jpg`,
       availableUnits: 99,
       place: 'Test place',
-       state: 'ST'
+      state: 'ST'
     },
     {
        id: 5,
