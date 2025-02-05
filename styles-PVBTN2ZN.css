@@ -1,0 +1,1 @@
+*{margin:0;padding:0}body{font-family:Be Vietnam Pro,sans-serif}:root{--primary-color: #1d1814;--secondary-color: #743222;--accent-color: #763c28;--shadow-color: #6c3b2a;--logo-width:70px}.brand-logo{width:var(--logo-width);height:auto}button.primary{padding:10px;border:solid 1px var(--secondary-color);background:var(--secondary-color);color:#fff;border-radius:8px}
