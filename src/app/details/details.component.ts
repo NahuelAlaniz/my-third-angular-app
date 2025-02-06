@@ -26,7 +26,7 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
         </ul>
       </section>
       <section class="listing-apply">
-        <h2 class="section-heading">Apply now to drink here</h2>
+        <h2 class="section-heading">Apply to drink here</h2>
         <form [formGroup]="applyForm" (submit)="submitApplication()">
           <label for="first-name">First Name</label>
           <input id="first-name" type="text" formControlName="firstName" />
